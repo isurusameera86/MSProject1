@@ -11,6 +11,7 @@ namespace MsTest1
         static void Main(string[] args)
         {
             Console.WriteLine("hello world...!!!");
+            Console.ReadKey();
         }
     }
 }
