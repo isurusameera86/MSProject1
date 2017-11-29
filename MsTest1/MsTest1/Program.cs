@@ -11,7 +11,7 @@ namespace MsTest1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world...!!!");
+            Console.WriteLine("hello world...!!!" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff"));
 
             string path = @"test.txt";
 
@@ -20,7 +20,7 @@ namespace MsTest1
                 File.Create(path).Dispose();
                 using (TextWriter tw = new StreamWriter(path))
                 {
-                    tw.WriteLine("The very first line!");
+                    tw.WriteLine("The very first line!" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff"));
                     tw.Close();
                 }
 
@@ -30,7 +30,7 @@ namespace MsTest1
             {
                 using (TextWriter tw = new StreamWriter(path))
                 {
-                    tw.WriteLine("The next line!");
+                    tw.WriteLine("The next line!" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff"));
                     tw.Close();
                 }
             }
