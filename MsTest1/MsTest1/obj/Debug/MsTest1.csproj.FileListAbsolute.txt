@@ -4,4 +4,3 @@ D:\test\GitMsTestProject\MsTest1\MsTest1\bin\Debug\MsTest1.pdb
 D:\test\GitMsTestProject\MsTest1\MsTest1\obj\Debug\MsTest1.csprojResolveAssemblyReference.cache
 D:\test\GitMsTestProject\MsTest1\MsTest1\obj\Debug\MsTest1.exe
 D:\test\GitMsTestProject\MsTest1\MsTest1\obj\Debug\MsTest1.pdb
-D:\test\GitMsTestProject\MsTest1\MsTest1\obj\Debug\MsTest1.csproj.CoreCompileInputs.cache
